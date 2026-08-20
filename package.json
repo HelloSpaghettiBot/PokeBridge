@@ -1,0 +1,29 @@
+{
+  "name": "tcp-bridge-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Protocol-agnostic TCP bridge for authorized interoperability testing",
+  "scripts": {
+    "start": "node src/cli.js",
+    "analyze-client": "node scripts/analyze-client.js",
+    "analyze-training": "node scripts/analyze-training-capture.js",
+    "analyze-plain": "node scripts/analyze-plain-packets.js",
+    "generate-config": "node scripts/generate-bridge-config.js",
+    "monitor-insertion": "node scripts/monitor-insertion.js",
+    "probe-game": "node scripts/probe-game-transport.js",
+    "train-bridge": "node scripts/run-bridge-trainer.js",
+    "bot-gui": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/launch-bridge-bot-gui.ps1",
+    "explore": "node scripts/run-world-explorer.js",
+    "headless-dashboard": "node scripts/run-headless-dashboard.js",
+    "index-species": "node scripts/index-client-species.js",
+    "scan-java": "node scripts/scan-java-constants.js",
+    "summarize-captures": "node scripts/summarize-captures.js",
+    "start-socks": "node scripts/socks-cli.js",
+    "watch-client": "node scripts/watch-client-connections.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Agent-Class: lab.huntcontrol.HuntControlAgentV2
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true

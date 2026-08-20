@@ -1,0 +1,12 @@
+{
+  "listenHost": "127.0.0.1",
+  "listenPort": 9000,
+  "upstreamHost": "127.0.0.1",
+  "upstreamPort": 9001,
+  "capturePath": "captures/session.jsonl",
+  "captureMaxBytes": 10485760,
+  "capturePayload": false,
+  "connectTimeoutMs": 10000,
+  "idleTimeoutMs": 300000,
+  "maxConnections": 100
+}
